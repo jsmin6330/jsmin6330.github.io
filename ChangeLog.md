@@ -2,8 +2,12 @@
 
 
 ### 0.1.0
-- [X] Study A Tag 
+- [x] study html a tag
 
 
 ### 0.2.0
-- [ ] search-console
+- [x] search-console
+
+
+### 0.3.0
+- [ ] NAVER searchadvisor

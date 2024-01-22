@@ -10,8 +10,11 @@
 
 
 ### 0.3.0
-- [ ] NAVER searchadviso
+- [X] NAVER searchadviso
 
 
 ### 0.4.0
--[ ] [SEO-NAVER](https://github.com/jsmin6330/jsmin6330.github.io/issues/4)r
+- [ ] [SEO-NAVER](https://github.com/jsmin6330/jsmin6330.github.io/issues/4)
+- [ ] robots.txt add file
+- [ ] update index.html
+

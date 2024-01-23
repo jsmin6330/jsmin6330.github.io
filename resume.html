@@ -3,16 +3,18 @@
 <head>
 	<meta charset="utf-8">
 	<title>이력서</title>
+	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap" rel="stylesheet">
 
 	<style>
 		body {
-			font-family: sans-serif;
+			font-family: 'Noto Sans KR', sans-serif;
 			font-size: 16px;
 		}
 	
 		header {
-			background-color:  #d0d0d0;
+			background-color:  #f8f9fa;
 			padding: 10px;
+			text-align: center;
 		}
 	
 		h1 {
@@ -25,7 +27,7 @@
 		}
 	
 		nav {
-			background-color: #fff;
+			background-color: #f8f9fa;
 			padding: 10px;
 		}
 	
@@ -63,18 +65,62 @@
 		}
 	
 		footer {
-			background-color: #FFFFF0;
+			background-color: #f8f9fa;
 			padding: 10px;
 			text-align: center;
 		}
+
+		#footer_name{
+			text-align: right;
+		}
+
+		table {
+            width: 100%; /* 테이블 전체 너비 */
+			border-collapse: collapse; /* 테두리 겹치기 */
+			border-spacing:0; /*셀 사이의 간격 없앤다.*/
+        }
+
+		.tg td{
+			border-color:black;
+			border-style:solid;
+			border-width:1px;
+			font-family:Arial, sans-serif;
+			font-size:14px;
+			overflow:hidden;
+			padding:10px 5px;
+			word-break:normal;
+		}
+
+		.tg th{
+			background-color: #f8f9fa;
+			border-color:black;
+			border-style:solid;
+			border-width:1px;
+			font-family:Arial, sans-serif;
+			font-size:14px;
+  			font-weight:bold;
+			overflow:hidden;
+			padding:10px 5px;
+			word-break:normal;
+		}
+
+		.tg #tg-center{ 
+			text-align:center;
+		}
+
+		.tg #tg-left{
+			text-align:left;
+		}
+
+
 	  </style>
 </head>
 
 <body>
 	<header>
-		<h1>이력서</h1>
-		<h2>정수민</h2>
-		<h3>Jeong soomin</h3>
+		<h1 style="font-size: 30px;">이력서</h1>
+		<h2 id = "footer_name">정수민</h2>
+		<h3 id = "footer_name">Jeong soomin</h3>
 	</header>
 
 	<nav>
@@ -96,35 +142,52 @@
 		<hr />
 		<section id = "education">
 			<h2>학력</h2>
-			<ul>
-				<li>
-					<h3>[수원대학교] [컴퓨터학과] [학사] [2018.02]</h3>
-					<p>
-					[학력 내용]
-					</p>
-				</li>
-			</ul>
+			<table class="tg">
+				<tr>
+					<th>학교</th>
+					<th>학과</th>
+					<th>학위</th>
+					<th>졸업일</th>
+				</tr>
+				<tr>
+					<td>수원대학교</td>
+					<td>컴퓨터학과</td>
+					<td>학사</td>
+					<td>2018년 2월</td>
+				</tr>
+			</table>
 		</section>
 		<hr />
 		<section id = "experience">
 			<h2>경력</h2>
-			<ul>
-				<li>
-					<h3>[회사명] [직책] [근무기간] [주요 업무]</h3>
-					<p>
-					[경력 내용]
-					</p>
-				</li>
-			</ul>
+			<table class="tg">
+				<tr>
+					<th>회사명</th>
+					<th>직책</th>
+					<th>근무 기간</th>
+					<th>주요 업무</th>
+				</tr>
+				<tr>
+					<td>(주)이스턴웰스</td>
+					<td>사원</td>
+					<td>5년 1개월</td>
+					<td>전산 기획 및 결제 시스템 관리</td>
+				</tr>
+			</table>
 		</section>
 		<hr />
 		<section id = "skills">
-			<h2>기술</h2>
-			<ul>
-				<li>
-					<h3>[기술명] [숙련도]</h3>
-				</li>
-			</ul>
+			<h2>자격증</h2>
+			<table class="tg">
+				<tr>
+					<th>취득일 </th>
+					<th>자격증 종류</th>
+				</tr>
+				<tr>
+					<td>2019.11</td>
+					<td>정보처리기사</td>
+				</tr>
+			</table>
 		<section>
 	</article>
 

@@ -14,9 +14,13 @@
 
 
 ### 0.4.0
-- [ ] [SEO-NAVER](https://github.com/jsmin6330/jsmin6330.github.io/issues/4)
-- [ ] robots.txt add file
-- [ ] update index.html
+- [X] [SEO-NAVER](https://github.com/jsmin6330/jsmin6330.github.io/issues/4)
+- [X] robots.txt add file
+- [X] update index.html
     - [X] title
-    - [ ] description
+    - [X] description
     - [X] Open Graph
+
+### 0.5.0
+- [ ] firebase
+

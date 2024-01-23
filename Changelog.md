@@ -21,6 +21,10 @@
     - [X] description
     - [X] Open Graph
 
-### 0.5.0
-- [ ] firebase
 
+### 0.5.0
+- [X] firebase & deploy dev STG
+
+
+### 0.6.0
+- [ ] study css

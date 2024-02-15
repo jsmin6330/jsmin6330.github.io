@@ -27,9 +27,12 @@
 
 
 ### 0.6.0
-- [ ] study css
+- [X] study css
 
 
 ### 0.7.0
-- [ ] resume
+- [X] resume
+
+
+### 250215.1
 
